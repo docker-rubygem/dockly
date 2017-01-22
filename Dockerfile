@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.5.12
+ENV VERSION=1.5.13
 
 RUN gem install dockly --version ${VERSION} --no-format-exec
 
